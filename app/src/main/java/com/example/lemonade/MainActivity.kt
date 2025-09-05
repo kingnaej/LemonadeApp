@@ -29,7 +29,7 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-@Preview(showSystemUi = true)
+@Preview(showSystemUi = true, showBackground = true)
 @Composable
 fun LemonApp() {
     var currentStep by remember { mutableIntStateOf(1) }
